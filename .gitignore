@@ -1,0 +1,8 @@
+eureka-server/target/*
+eureka-server-ha/target/*
+eureka-client-consumer/target/*
+eureka-client-provider/target/*
+target/*
+.idea/*
+idea/*
+*.iml
