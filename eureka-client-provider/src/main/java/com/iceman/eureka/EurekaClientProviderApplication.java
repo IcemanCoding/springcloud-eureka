@@ -1,4 +1,4 @@
-package com.iceman.eureka.client;
+package com.iceman.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 2019/1/2
  */
 @SpringBootApplication
-public class EurekaClientConsumerApplication {
+public class EurekaClientProviderApplication {
 
     public static void main( String[] args ) {
-        SpringApplication.run( EurekaClientConsumerApplication.class, args );
+        SpringApplication.run( EurekaClientProviderApplication.class, args );
     }
 
 }

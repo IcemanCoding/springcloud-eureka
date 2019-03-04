@@ -2,7 +2,7 @@ server:
   port: 8283
 spring:
   application:
-    name: microservice-consumer-user
+    name: microservice-consumer
 eureka:
   client:
     serviceUrl:
